@@ -1,0 +1,15 @@
+{
+  "name": "geex-smm-panel",
+  "version": "1.1.0",
+  "private": true,
+  "description": "GEEX SMM Panel - PostgreSQL deployment starter",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "pg": "^8.13.1"
+  }
+}
